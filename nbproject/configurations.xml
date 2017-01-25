@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="100">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="HeaderFiles"
+                   displayName="Header Files"
+                   projectFiles="true">
+      <itemPath>backtesting.hpp</itemPath>
+      <itemPath>googlefetch.hpp</itemPath>
+      <itemPath>helpers.hpp</itemPath>
+      <itemPath>logger.hpp</itemPath>
+      <itemPath>md5.h</itemPath>
+      <itemPath>netutils.hpp</itemPath>
+      <itemPath>opt.hpp</itemPath>
+      <itemPath>security.h</itemPath>
+      <itemPath>sqlite3.h</itemPath>
+      <itemPath>starter-minimum_variance_multithreading.hpp</itemPath>
+      <itemPath>temp.hpp</itemPath>
+      <itemPath>timeseries.hpp</itemPath>
+      <itemPath>tradingsystems.hpp</itemPath>
+      <itemPath>tsa.hpp</itemPath>
+      <itemPath>walkforward.hpp</itemPath>
+      <itemPath>walkforwardmv.hpp</itemPath>
+      <itemPath>walkforwardtest.hpp</itemPath>
+      <itemPath>yahoofetch.hpp</itemPath>
+    </logicalFolder>
+    <logicalFolder name="ResourceFiles"
+                   displayName="Resource Files"
+                   projectFiles="true">
+      <itemPath>build_and_linker_opt.txt</itemPath>
+      <itemPath>eignen_tutorial.txt</itemPath>
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Source Files"
+                   projectFiles="true">
+      <itemPath>backtesting.cpp</itemPath>
+      <itemPath>googlefetch.cpp</itemPath>
+      <itemPath>logger.cpp</itemPath>
+      <itemPath>main.cpp</itemPath>
+      <itemPath>md5.cpp</itemPath>
+      <itemPath>netutils.cpp</itemPath>
+      <itemPath>security.cpp</itemPath>
+      <itemPath>sqlite3.c</itemPath>
+      <itemPath>timeseries.cpp</itemPath>
+      <itemPath>yahoofetch.cpp</itemPath>
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="Test Files"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <ccTool>
+          <standard>8</standard>
+        </ccTool>
+        <linkerTool>
+          <linkerAddLib>
+            <pElem>/usr/lib/x86_64-linux-gnu</pElem>
+          </linkerAddLib>
+          <linkerLibItems>
+            <linkerOptionItem>-lpthread -ldl -lcurl -lplplotcxxd -rdynamic</linkerOptionItem>
+          </linkerLibItems>
+        </linkerTool>
+      </compileType>
+      <item path="backtesting.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="backtesting.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="build_and_linker_opt.txt" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="eignen_tutorial.txt" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="googlefetch.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="googlefetch.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="helpers.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="logger.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="logger.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="md5.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="md5.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="netutils.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="netutils.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="opt.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="security.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="security.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="sqlite3.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="sqlite3.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="starter-minimum_variance_multithreading.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="temp.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="timeseries.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="timeseries.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="tradingsystems.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="tsa.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="walkforward.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="walkforwardmv.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="walkforwardtest.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="yahoofetch.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="yahoofetch.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+    </conf>
+    <conf name="Release" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+          <standard>8</standard>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+        <linkerTool>
+          <linkerLibItems>
+            <linkerOptionItem>-lpthread -ldl -lcurl -lplplotcxxd -rdynamic</linkerOptionItem>
+          </linkerLibItems>
+        </linkerTool>
+      </compileType>
+      <item path="backtesting.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="backtesting.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="build_and_linker_opt.txt" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="eignen_tutorial.txt" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="googlefetch.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="googlefetch.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="helpers.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="logger.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="logger.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="md5.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="md5.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="netutils.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="netutils.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="opt.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="security.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="security.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="sqlite3.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="sqlite3.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="starter-minimum_variance_multithreading.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="temp.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="timeseries.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="timeseries.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="tradingsystems.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="tsa.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="walkforward.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="walkforwardmv.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="walkforwardtest.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="yahoofetch.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="yahoofetch.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>

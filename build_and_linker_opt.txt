@@ -1,0 +1,12 @@
+Build opt
+c++ standard: c++11
+
+
+Linker opt
+libpthread (pthread)
+libdl (dl)
+libcurl (curl)
+libplplotd-c++  (plplotcxxd)
+additional options : -rdynamic
+
+
